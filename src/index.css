@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* index.css */
+html.light {
+  background-color: white;
+  color: black;
+}
+
+html.dark {
+  background-color: #121212;
+  color: green; /* هنا خليت كل التكست أخضر */
+}
+
+/* لو عندك عناصر معينة مش عاوزها تبقى خضرا (زي أزرار أو لينكات) ممكن تستثنيها */
+html.dark button,
+html.dark a {
+  color: white; /* مثلًا الأزرار واللينكات تفضل لونها أبيض */
+}
