@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import { useState, useEffect } from "react";
 import Login from "./pages/login/Login.jsx";
 import Register from "./pages/register/Register.jsx";
-import Home from "./pages/home/Home.jsx";
+import Home from "../src/pages/Home/Home.jsx";
 
 // ...existing code...
 function App() {
